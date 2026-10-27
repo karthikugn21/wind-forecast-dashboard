@@ -1,6 +1,7 @@
 // src/components/TimeSeriesChart.tsx
 // Actual vs. Forecast line chart for wind generation (Jan 2026)
 
+
 import {
   ComposedChart,
   Line,
@@ -9,7 +10,6 @@ import {
   CartesianGrid,
   Tooltip,
   ResponsiveContainer,
-  Legend,
 } from 'recharts'
 import { format, parseISO } from 'date-fns'
 import type { AccuracyPair } from '../api/useWindData'
